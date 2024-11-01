@@ -1,5 +1,8 @@
 import React from 'react'
 import Logo from '../Logo'
+import Facebook from '../../assets/icon-facebook.svg'
+import Instagram from '../../assets/icon-instagram.svg'
+import Twitter from '../../assets/icon-twitter.svg'
 
 export default function Footer() {
   return (
@@ -11,9 +14,9 @@ export default function Footer() {
             <strong>equalizer@example.com</strong>
         </section>
         <section id='social-logos'>
-            <img src="./src/assets/icon-facebook.svg" />
-            <img src="./src/assets/icon-instagram.svg" />
-            <img src="./src/assets/icon-twitter.svg" />
+            <img src={Facebook} />
+            <img src={Instagram} />
+            <img src={Twitter} />
         </section>
     </main>
 
