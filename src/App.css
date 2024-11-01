@@ -8,11 +8,11 @@ body {
 
 #root {
   /* max-width: 1280px; */
-  padding: 5rem;
+  padding: 2rem 8rem;
   background: url("./src/assets/bg-main-desktop.png");
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 15rem;
 }
 
 /* Footer */
@@ -44,8 +44,9 @@ body {
 
 #bg {
   position: absolute;
-  top: -50px;
+  top: -3.125rem;
   right: 0;
+  width: 19.5rem;
 }
 
 #header-text {
@@ -74,15 +75,81 @@ body {
 /* Box */
 
 #main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  position: relative;
+  background-color: #191826;
+  align-items: end;
+  max-width: 1440px;
+  border-radius: 0.75rem;
+  height: 600px;
+}
+
+.iphone {
+  position: absolute;
+  top: -7rem;
+  left: 3rem;
+  max-height: 600px;
+  object-fit: contain;
 }
 
 #box {
   background-color: #FA7453;
   width: 100%;
   max-width: 512px;
-  max-height: 632px;
-  padding: 5rem;
+  height: 39.5em;
+  padding: 3rem;
+  border-radius: 5%;
+  color: #191826;
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 400;
+  position: absolute;
+  bottom: -8rem;
+  right: 4rem;
+}
+
+
+#box h1 {
+  font-size: 2.5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+#box p {
+  font-size: 1.25rem;
+}
+
+#box .price {
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+
+#box sup {
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 400;
+}
+
+
+#box .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 3rem;
+}
+
+#box button {
+  padding: 1em;
+  border-radius: 0.75rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+}
+
+.ios {
+  background-color: #191826;
+  color: #FCFAF9;
+}
+
+.android {
+  background-color: #FCFAF9
 }

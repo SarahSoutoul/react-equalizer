@@ -13,7 +13,7 @@ export default function Header() {
                 bass, mids, treble, gain control, reverb, and more!</p>
             </article>
         </section>
-        <img id="bg" src="./src/assets/bg-pattern-1.svg" width="312px"/>
+        <img id="bg" src="./src/assets/bg-pattern-1.svg"/>
     </main>
   )
 }
