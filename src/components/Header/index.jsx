@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../Logo'
+import Bg_Pattern from '../../assets/bg-pattern-1.svg'
 
 export default function Header() {
   return (
@@ -13,7 +14,7 @@ export default function Header() {
                 bass, mids, treble, gain control, reverb, and more!</p>
             </article>
         </section>
-        <img id="bg" src="./src/assets/bg-pattern-1.svg"/>
+        <img id="bg" src={Bg_Pattern} />
     </main>
   )
 }
